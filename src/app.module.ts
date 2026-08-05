@@ -6,9 +6,6 @@ import { SubTaskModule } from './subtask/subtask.module';
 import { UsersModule } from './users/users.module';
 
 @Module({
-  imports: [TaskModule, SubTaskModule],
-
-@Module({
   imports: [UsersModule],
   controllers: [AppController],
   providers: [AppService],
