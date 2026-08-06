@@ -6,6 +6,7 @@ import { TaskModule } from './task/task.module';
 import { SubTaskModule } from './subtask/subtask.module';
 import { UsersModule } from './users/users.module';
 import { ConfigModule, ConfigService } from '@nestjs/config';
+import { ProjectModule } from './project/project.module';
 
 @Module({
     imports: [
@@ -15,7 +16,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
         MongooseModule.forRootAsync({
             imports: [ConfigModule],
             inject: [ConfigService],
-            useFactory: async (configService: ConfigService) => {
+            useFactory: (configService: ConfigService) => {
                 const mongoUri: string =
                     configService.get<string>('MONGO_URL') ?? '';
                 return {
@@ -23,7 +24,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
                 };
             },
         }),
-
+        ProjectModule,
         TaskModule,
         SubTaskModule,
         UsersModule,
