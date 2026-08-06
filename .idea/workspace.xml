@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f78fd104-b5c1-4dc1-91ea-cc8988e333ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bun.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.controller.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.controller.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subtask/schemas/subtask.schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/subtask/schemas/subtask.schema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subtask/subtask.controller.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/subtask/subtask.controller.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subtask/subtask.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/subtask/subtask.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subtask/subtask.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/subtask/subtask.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/schemas/task.schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/schemas/task.schema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/task.controller.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task.controller.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/task.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/task.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/task.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/task.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/users.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/users.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/users.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/users/users.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/users/users.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/app.e2e-spec.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="48" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="4.882812500000112E-4" />
+      <entry key="MS500" value="0.21804653071050975" />
+      <entry key="S2" value="0.8252223237370427" />
+      <entry key="S5" value="1.322294779797374" />
+      <entry key="S10" value="1.7031213292568512" />
+      <entry key="S30" value="2.7426863113234967" />
+      <entry key="S60" value="3.8069835206056903" />
+      <entry key="M2" value="5.456352254131812" />
+      <entry key="M5" value="8.41309103052919" />
+      <entry key="M10" value="13.487701027719602" />
+      <entry key="M15" value="19.14974374961566" />
+      <entry key="M30" value="31.6064558659993" />
+      <entry key="H1" value="42.88294235475958" />
+      <entry key="H2" value="50.54714772594079" />
+      <entry key="H4" value="55.02538613155026" />
+      <entry key="D1" value="59.134115554766616" />
+      <entry key="W1" value="59.87536966013924" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000000109" />
+      <entry key="S10" value="1.0000001049091778" />
+      <entry key="S30" value="1.005584359569618" />
+      <entry key="S60" value="1.098235871705942" />
+      <entry key="M2" value="1.4340668433403896" />
+      <entry key="M5" value="2.0846340379008894" />
+      <entry key="M10" value="2.5373427653489706" />
+      <entry key="M15" value="2.7955881782334164" />
+      <entry key="M30" value="3.2140956488456927" />
+      <entry key="H1" value="3.539844405835628" />
+      <entry key="H2" value="3.749320777688165" />
+      <entry key="H4" value="3.8689377035270147" />
+      <entry key="D1" value="3.9773075387428323" />
+      <entry key="W1" value="3.996736691768561" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.002843666865135921" />
+      <entry key="MS500" value="0.47156465175892553" />
+      <entry key="S2" value="1.5202638974624672" />
+      <entry key="S5" value="2.181861246741189" />
+      <entry key="S10" value="2.61525501289218" />
+      <entry key="S30" value="3.6803021962260454" />
+      <entry key="S60" value="4.845496534027604" />
+      <entry key="M2" value="6.834417719036611" />
+      <entry key="M5" value="10.457256054638812" />
+      <entry key="M10" value="15.999351358050411" />
+      <entry key="M15" value="21.926612948855702" />
+      <entry key="M30" value="34.81021379385117" />
+      <entry key="H1" value="46.41731739682266" />
+      <entry key="H2" value="54.29364842451455" />
+      <entry key="H4" value="58.89289086287187" />
+      <entry key="D1" value="63.11118092822458" />
+      <entry key="W1" value="63.872071673051465" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3HWcXQRMwfxaFPf4wcpONAiumIk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "dev",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "/home/kevit/Work/practice-project-nest-js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "ml.llm.AcpAgentsConfigurable",
+    "ts.external.directory.path": "/home/kevit/Work/practice-project-nest-js/node_modules/typescript/lib"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.9437.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f78fd104-b5c1-4dc1-91ea-cc8988e333ae" name="Changes" comment="" />
+      <created>1785987305059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785987305059</updated>
+      <workItem from="1785987306893" duration="2652000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
