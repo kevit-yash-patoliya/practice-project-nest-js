@@ -5,6 +5,7 @@ import { AppService } from './app.service';
 import { TaskModule } from './task/task.module';
 import { SubTaskModule } from './subtask/subtask.module';
 import { UsersModule } from './users/users.module';
+import { ConfigModule, ConfigService } from '@nestjs/config';
 
 @Module({
     imports: [
@@ -15,7 +16,8 @@ import { UsersModule } from './users/users.module';
             imports: [ConfigModule],
             inject: [ConfigService],
             useFactory: async (configService: ConfigService) => {
-                const mongoUri: string = configService.get<string>('MONGO_URL') ?? '';
+                const mongoUri: string =
+                    configService.get<string>('MONGO_URL') ?? '';
                 return {
                     uri: mongoUri,
                 };
@@ -26,7 +28,7 @@ import { UsersModule } from './users/users.module';
         SubTaskModule,
         UsersModule,
     ],
-  controllers: [AppController],
-  providers: [AppService],
+    controllers: [AppController],
+    providers: [AppService],
 })
 export class AppModule {}
