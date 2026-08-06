@@ -7,12 +7,25 @@ import { SubTaskModule } from './subtask/subtask.module';
 import { UsersModule } from './users/users.module';
 
 @Module({
-  imports: [
-    MongooseModule.forRoot(process.env.MONGODB_URI ?? 'mongodb://localhost:27017/nestdb'),
-    TaskModule,
-    SubTaskModule,
-    UsersModule,
-  ],
+    imports: [
+        ConfigModule.forRoot({
+            isGlobal: true,
+        }),
+        MongooseModule.forRootAsync({
+            imports: [ConfigModule],
+            inject: [ConfigService],
+            useFactory: async (configService: ConfigService) => {
+                const mongoUri: string = configService.get<string>('MONGO_URL') ?? '';
+                return {
+                    uri: mongoUri,
+                };
+            },
+        }),
+
+        TaskModule,
+        SubTaskModule,
+        UsersModule,
+    ],
   controllers: [AppController],
   providers: [AppService],
 })
