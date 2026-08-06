@@ -1,18 +1,34 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { TaskController } from './task.controller';
+import { TaskService } from './task.service';
+
+const mockTaskService = {
+    create: jest.fn(),
+    findAll: jest.fn(),
+    findOne: jest.fn(),
+    findByProject: jest.fn(),
+    update: jest.fn(),
+    remove: jest.fn(),
+};
 
 describe('TaskController', () => {
-  let controller: TaskController;
+    let controller: TaskController;
 
-  beforeEach(async () => {
-    const module: TestingModule = await Test.createTestingModule({
-      controllers: [TaskController],
-    }).compile();
+    beforeEach(async () => {
+        const module: TestingModule = await Test.createTestingModule({
+            controllers: [TaskController],
+            providers: [
+                {
+                    provide: TaskService,
+                    useValue: mockTaskService,
+                },
+            ],
+        }).compile();
 
-    controller = module.get<TaskController>(TaskController);
-  });
+        controller = module.get<TaskController>(TaskController);
+    });
 
-  it('should be defined', () => {
-    expect(controller).toBeDefined();
-  });
+    it('should be defined', () => {
+        expect(controller).toBeDefined();
+    });
 });
